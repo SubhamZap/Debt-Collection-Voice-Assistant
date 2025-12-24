@@ -1,0 +1,29 @@
+amazon:
+  client_name: "Amazon Business"
+  greeting_formal: "Bonjour, ici le service Amazon Business."
+  greeting_informal: ""
+  tone_style: "professionnel et serviable"
+  debtor_name: "Jean Dupont"
+  debt_amount: "150.00"
+  invoice_id: "AMZ-12345"
+  due_date: "15 décembre 2025"
+
+dell:
+  client_name: "Dell"
+  greeting_formal: "Bonjour, je vous contacte de la part de Dell."
+  greeting_informal: ""
+  tone_style: "technique et empathique"
+  debtor_name: "Marie Laurent"
+  debt_amount: "320.00"
+  invoice_id: "DL-67890"
+  due_date: "10 janvier 2026"
+
+microsoft:
+  client_name: "Microsoft"
+  greeting_formal: "Bonjour, c'est Alexandre chez Microsoft."
+  greeting_informal: ""
+  tone_style: "innovant et confidentiel"
+  debtor_name: "Sophie Bernard"
+  debt_amount: "99.99"
+  invoice_id: "MS-54321"
+  due_date: "20 décembre 2025"
