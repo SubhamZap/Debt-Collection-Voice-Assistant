@@ -4,7 +4,7 @@
 
 **Phone Number**: +1 (765) 663-8363 
 
-This repository contains everything required for the 2-hour assignment:
+This repository contains:
 
 - A fully functional French voice agent built on Retell AI
 - 8 automated simulation test cases with batch results (88% pass rate)
