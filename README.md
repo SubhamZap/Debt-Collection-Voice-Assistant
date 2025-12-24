@@ -3,7 +3,6 @@
 **Live Demo**: Call the US phone number below to speak directly with the French-speaking agent.
 
 **Phone Number**: +1 (765) 663-8363 
-*(Replace with your actual Retell AI US number before submission)*
 
 This repository contains everything required for the 2-hour assignment:
 
