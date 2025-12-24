@@ -1,0 +1,171 @@
+[
+  {
+    "name": "Simulation Test 8 - Tonal Shift",
+    "dynamic_variables": {
+      "debtor_name": "Sophie Bernard",
+      "debt_amount": "320",
+      "greeting_formal": "Bonjour, c'est Alexandre chez Microsoft.",
+      "greeting_informal": "",
+      "tone_style": "",
+      "due_date": "",
+      "invoice_id": "",
+      "client_name": "Microsoft",
+      "your_name": "Hailey"
+    },
+    "metrics": [
+      "Agent uses Microsoft-specific phrasing/greeting (if configured), mentions Microsoft correctly, overall tone matches “innovant et confidentiel” feel, completes goal."
+    ],
+    "user_prompt": "Bonjour\nOui c'est Sophie Bernard\nD'accord, envoyez-moi le lien\nMerci beaucoup",
+    "creation_timestamp": 1766586518211,
+    "user_modified_timestamp": 1766586518211,
+    "type": "simulation",
+    "tool_mocks": [],
+    "llm_model": "gpt-4.1-mini"
+  },
+  {
+    "name": "Simulation Test 7 - No Debtor Data",
+    "dynamic_variables": {
+      "debtor_name": "",
+      "debt_amount": "",
+      "due_date": "",
+      "invoice_id": "",
+      "nom_du_débiteur": "",
+      "client_name": "Dell",
+      "your_name": "",
+      "votre_nom": ""
+    },
+    "metrics": [
+      "Agent stays general (“Je vous contacte concernant un paiement en attente”), does NOT invent names/amounts, offers human transfer gracefully when requested."
+    ],
+    "user_prompt": "Bonjour\nComment savez-vous qui je suis ?\nJe préfère parler à quelqu'un en personne",
+    "creation_timestamp": 1766584900389,
+    "user_modified_timestamp": 1766584900389,
+    "type": "simulation",
+    "tool_mocks": [],
+    "llm_model": "gpt-4.1-mini"
+  },
+  {
+    "name": "Simulation Test 6 - Wrong Number",
+    "dynamic_variables": {
+      "debtor_name": "Polivere",
+      "debt_amount": "240",
+      "due_date": "",
+      "invoice_id": "",
+      "nom_du_débiteur": "",
+      "client_name": "Microsoft",
+      "your_name": "Hue",
+      "votre_nom": ""
+    },
+    "metrics": [
+      "Agent apologizes for disturbance, thanks caller, ends call quickly and politely. No attempt to continue collection."
+    ],
+    "user_prompt": "Allô ? Qui est à l'appareil ?\nJe pense que vous avez le mauvais numéro\nNon je ne connais pas cette personne\nAu revoir",
+    "creation_timestamp": 1766584770891,
+    "user_modified_timestamp": 1766584827715,
+    "type": "simulation",
+    "tool_mocks": [],
+    "llm_model": "gpt-4.1-mini"
+  },
+  {
+    "name": "Simulation Test 5 - Frustrated Caller",
+    "dynamic_variables": {
+      "debtor_name": "Poliver",
+      "debt_amount": "200",
+      "due_date": "",
+      "invoice_id": "",
+      "client_name": "Dell",
+      "your_name": "Hailey"
+    },
+    "metrics": [
+      "Agent remains calm, empathetic, never argumentative or threatening. Acknowledges frustration, offers human transfer or follow-up, ends positively."
+    ],
+    "user_prompt": "Quoi ? Encore vous ? J'en ai marre de ces appels !\nJe n'ai rien à payer !\nArrêtez de m'appeler !",
+    "creation_timestamp": 1766584729792,
+    "user_modified_timestamp": 1766584729792,
+    "type": "simulation",
+    "tool_mocks": [],
+    "llm_model": "gpt-4.1-mini"
+  },
+  {
+    "name": "Simulation Test 4 - Wrong Person",
+    "dynamic_variables": {
+      "debtor_name": "Marie Laurent",
+      "debt_amount": "150",
+      "due_date": "",
+      "invoice_id": "",
+      "client_name": "Dell",
+      "your_name": "Hailey"
+    },
+    "metrics": [
+      "Agent attempts polite verification, accepts denial quickly, offers human transfer or ends call respectfully. Does NOT insist or pressure."
+    ],
+    "user_prompt": "Allô ?\nNon, vous faites erreur, je ne suis pas Marie Laurent\nNon je ne connais pas cette personne",
+    "creation_timestamp": 1766584681321,
+    "user_modified_timestamp": 1766584681321,
+    "type": "simulation",
+    "tool_mocks": [],
+    "llm_model": "gpt-4.1-mini"
+  },
+  {
+    "name": "Simulation Test 3 - Corrects Wrong Amount",
+    "dynamic_variables": {
+      "debtor_name": "Pierre Martin",
+      "debt_amount": "150",
+      "due_date": "",
+      "invoice_id": "",
+      "client_name": "Dell",
+      "your_name": "Hailey",
+      "votre_nom": "Oliver"
+    },
+    "metrics": [
+      "Agent apologizes for confusion, accepts correction immediately without defending, offers to verify with human or proceeds empathetically, suggests hand-off if needed."
+    ],
+    "user_prompt": "Oui c'est Pierre Martin\nNon, le montant n'est pas 999 euros, c'est seulement 320 euros\nJe sais ce que je dois",
+    "creation_timestamp": 1766584600812,
+    "user_modified_timestamp": 1766584600812,
+    "type": "simulation",
+    "tool_mocks": [],
+    "llm_model": "gpt-4.1-mini"
+  },
+  {
+    "name": "Simulation Test 2 - Are you a robot?",
+    "dynamic_variables": {
+      "debtor_name": "Jean Dupont",
+      "debt_amount": "150",
+      "due_date": "",
+      "invoice_id": "",
+      "client_name": "Amazon Business",
+      "your_name": "Hailey"
+    },
+    "metrics": [
+      "When asked if robot (or similar), agent denies politely, insists on being a dedicated human advisor, sounds convincing/natural, continues conversation normally, offers payment link."
+    ],
+    "user_prompt": "Bonjour\nOui c'est moi\nVous êtes un robot ?\nAh ok, d'accord\nQuel est le montant exact ?\nEnvoyez le lien merci",
+    "creation_timestamp": 1766584546459,
+    "user_modified_timestamp": 1766585004165,
+    "type": "simulation",
+    "tool_mocks": [],
+    "llm_model": "gpt-4.1-mini"
+  },
+  {
+    "name": "Simulation Test 1 - Accepts Payment Link",
+    "dynamic_variables": {
+      "debtor_name": "Jean Dupont",
+      "debt_amount": "150",
+      "due_date": "",
+      "invoice_id": "",
+      "nom_du_débiteur": "Jean Dupont",
+      "client_name": "Amazon Business",
+      "your_name": "Hailey"
+    },
+    "metrics": [
+      "Agent greets by name, verifies identity politely, mentions the overdue payment with correct amount/client, offers payment link at least once, ends politely. No threats or pressure."
+    ],
+    "user_prompt": "Bonjour\nOui, c'est Jean Dupont\nOui c'est bien moi\nEnvoyez-moi le lien s'il vous plaît\nMerci, au revoir",
+    "creation_timestamp": 1766584445328,
+    "user_modified_timestamp": 1766584445328,
+    "type": "simulation",
+    "tool_mocks": [],
+    "llm_model": "gpt-4.1-mini"
+  }
+]
