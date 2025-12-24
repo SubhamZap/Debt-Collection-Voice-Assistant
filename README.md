@@ -2,7 +2,7 @@
 
 **Live Demo**: Call the US phone number below to speak directly with the French-speaking agent.
 
-**Phone Number**: +1 (XXX) XXX-XXXX  
+**Phone Number**: +1 (765) 663-8363 
 *(Replace with your actual Retell AI US number before submission)*
 
 This repository contains everything required for the 2-hour assignment:
@@ -14,7 +14,7 @@ This repository contains everything required for the 2-hour assignment:
 
 ## How to Run the Agent (Live Call)
 
-Simply call the phone number: **+1 (XXX) XXX-XXXX**  
+Simply call the phone number: **+1 (765) 663-8363**  
 The agent will answer immediately in French, identify the caller (using dynamic data), explain the outstanding payment politely, offer a secure payment link or follow-up, and handle interruptions, corrections, and the "Are you a robot?" question convincingly.
 
 All conversations are in French on the call path, as required.
